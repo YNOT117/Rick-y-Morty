@@ -1,0 +1,194 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: RickyMorty;
+  src: url("MISFITS.ttf");
+}
+.titulo p{
+  font-family: RickyMorty;
+  font-size: 120px;
+  color: #4DD0E1;
+}
+
+.titulo{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tarjetas{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.sectionBody{
+  width: 85%;
+  background-image: url('fondoS.png');
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+aside{
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url('fondoS.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+.imgAside{
+  width: 100%;
+  padding: 50vh 0 0 0;
+  margin: 0 10px 0 0;
+  transition: transform .5s;
+}
+
+
+.imgAside:hover{
+  transform: scale(1.04,1.04);
+}
+
+body{
+  display: flex;
+  flex-direction: row;
+}
+
+.tarjeta{
+  border: 2px solid black;
+  margin: 55px 50px;
+  width: 300px;
+  height: 550px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.Alive{
+  background-color: #4caf50;
+  width: 100%;
+  height: 20%;
+  border-radius: 23px 23px 0px 0px;
+}
+
+.unknown{
+  background-color: #26c6da;
+  width: 100%;
+  height: 20%;
+  border-radius: 23px 23px 0px 0px;
+}
+
+.Dead{
+  background-color: #F44336;
+  width: 100%;
+  height: 20%;
+  border-radius: 23px 23px 0px 0px;
+}
+
+.Prueba{
+  border: 2px solid black;
+  margin: 55px 50px;
+  width: 300px;
+  height: 400px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.status{
+  width: 100%;
+  height: 20%;
+  border-radius: 23px 23px 0px 0px;
+  background-color: #03A9F4;
+}
+
+.datos{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(-65px);
+}
+
+.img{
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  box-shadow: -5px 10px 12px #999;
+}
+
+.name{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.creado{
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.masDatos{
+  width: 100%;
+  margin: 5px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.masDatos p{
+  font-size: 17px;
+}
+
+.valor{
+  width: 100%;
+  margin-left: 15px;
+}
+
+.dato{
+  width: 100%;
+  margin-left: 15px;
+}
+
+.arrow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 100%;
+  padding: 10px 0 20px; 0;
+}
+
+.arrow img{
+  width: 60px;
+  height: 60px;
+}
+
+.arrowL{
+  transition: transform .5s;
+}
+.arrowR{
+  transition: transform .5s;
+}
+.arrowL:hover{
+  transform: scale(1.2,1.2);
+}
+.arrowR:hover{
+  transform: scale(1.2,1.2);
+}
+
+.hidden{
+  display: none;
+}
