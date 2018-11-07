@@ -80,7 +80,7 @@ function printLocation(characters) {
       <section class="datos">
         <img class="img" src="${character.image}">
         <p class="name">${character.name}</p>
-        <p class="creado">id:  ${character.id}</p>
+        <p class="creado">id: ${character.id}</p>
 
         <section class="masDatos">
           <section class="dato">

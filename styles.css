@@ -3,6 +3,11 @@
   margin: 0;
 }
 
+.paginacion{
+  position: fixed;
+  bottom: 0;
+}
+
 @font-face {
   font-family: RickyMorty;
   src: url("MISFITS.ttf");
@@ -116,7 +121,7 @@ body{
 
 .datos{
   width: 100%;
-  height: 100%;
+  height: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
